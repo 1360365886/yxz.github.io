@@ -1,0 +1,28 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "我的个人博客",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+	"deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1360365886/yxz.github.io.git"
+  },
+  "keywords": [
+    "博客"
+  ],
+  "author": "杨小治",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1360365886/yxz.github.io/issues"
+  },
+  "homepage": "https://github.com/1360365886/yxz.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
